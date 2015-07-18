@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150"
+   height="100"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\All Users\Documents\My Pictures\inkscape\champagne flag"
+   sodipodi:docname="Champagne_Ardenne_flag.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.6516504"
+     inkscape:cx="78.623238"
+     inkscape:cy="47.866859"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="873"
+     inkscape:window-height="576"
+     inkscape:window-x="257"
+     inkscape:window-y="106">
+    <sodipodi:guide
+       orientation="horizontal"
+       position="50"
+       id="guide2229" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="75"
+       id="guide2231" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="background"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect11427"
+       width="150"
+       height="100"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="yellow heart"
+     style="display:inline">
+    <path
+       style="fill:#ffce08;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M 58.75,16.75 C 54.398465,16.75 50.036495,18.401005 46.71875,21.71875 C 40.083261,28.354239 40.08326,39.11451 46.71875,45.75 L 50.96875,50 L 75,74.03125 L 99.03125,50 L 103.28125,45.75 C 109.91674,39.11451 109.91674,28.35424 103.28125,21.71875 C 96.645763,15.083259 85.88549,15.08326 79.25,21.71875 L 75,25.96875 L 70.75,21.71875 C 67.432254,18.401005 63.101535,16.75 58.75,16.75 z "
+       id="rect5163" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="green heart"
+     style="display:inline">
+    <path
+       id="path9422"
+       d="M 91.25,83.25 C 95.601535,83.25 99.963505,81.598995 103.28125,78.28125 C 109.91674,71.645761 109.91674,60.88549 103.28125,54.25 L 99.03125,50 L 75,25.96875 L 50.96875,50 L 46.71875,54.25 C 40.08326,60.88549 40.08326,71.64576 46.71875,78.28125 C 53.354237,84.916741 64.11451,84.91674 70.75,78.28125 L 75,74.03125 L 79.25,78.28125 C 82.567746,81.598995 86.898465,83.25 91.25,83.25 z "
+       style="fill:#009c00;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       mask="url(#mask11418)" />
+    <rect
+       style="fill:#ffce08;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       id="rect11424"
+       width="17"
+       height="40"
+       x="0.67767048"
+       y="65.388351"
+       transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)" />
+  </g>
+</svg>
