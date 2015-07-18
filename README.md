@@ -11,7 +11,7 @@ You can get the flag for any country just by its two-letter code. Just access ht
 
 This repository also has flags for many subdivisions of countries (including U.S. states, Canadian provinces, etc). Just access http://flags.ox3.in/svg/xx/yyy.svg, where "xx" is the first part of the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2#Current_codes) code and "yyy" is the second part after the dash (again, both parts in lowercase).
 
-If SVGs don't suit your purpose, you can also access very low resolution PNGs via http://flags.ox3.in/mini/xx.png and http://flags.ox3.in/mini/xx/yyy.png; however, this might not be maintained in the future.
+If SVGs don't suit your purpose, you can also access very low resolution PNGs via http://flags.ox3.in/mini/xx.png and http://flags.ox3.in/mini/xx/yyy.png. However, be warned that I will probably be changing the directory structure for PNGs in the near future, so you shouldn't rely on it.
 
 ## Why does this exist?
 
