@@ -16,5 +16,5 @@ If SVGs don't suit your purpose, you can also access very low resolution PNGs vi
 ## Why does this exist?
 I originally made this repository to allow me to easily embed flags in Google Sheets. You can read more about how to do that [here](https://github.com/oxguy3/flags/blob/gh-pages/GOOGLE_SHEETS.md).
 
-## Am I allowed to use this?
+## Is this freely usable?
 Yes! All these flags are public domain images from Wikimedia Commons, so you can do with them what you want. Everything else in this directory that is not an image file is licensed under [the MIT license](http://oxguy3.mit-license.org/).
