@@ -2,6 +2,8 @@
 
 Here's a nifty little formula you can use to spruce up your spreadsheets with flags from this repository! Unfortunately, these formulas use Google-specific features, so they will only work with Google Sheets.
 
+Country flags come in a wide variety of aspect ratios, so there is no perfect cell size for displaying these flags. However, I have found that a row height of 21 pixels and a column width of 38 pixels is fairly optimal (you can precisely define the size by selecting the entire row/column, right-clicking, and choosing the "Resize" option).
+
 ## Country flags
 
 ### Basic formula
