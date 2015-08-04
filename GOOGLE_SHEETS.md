@@ -1,6 +1,6 @@
 # Flags in Google Sheets
 
-Here's a nifty little formula you can use to spruce up your spreadsheets with flags from this repository! You can preview what this will look like in [this spreadsheet](https://docs.google.com/spreadsheets/d/1GoDDhtoDuKwDv9pB5hKFkcHzhI420z2lr4szovryXaU/edit#gid=0) .
+Here's a nifty little formula you can use to spruce up your spreadsheets with flags from this repository! You can preview what this will look like in [this spreadsheet](https://docs.google.com/spreadsheets/d/1GoDDhtoDuKwDv9pB5hKFkcHzhI420z2lr4szovryXaU/edit#gid=0).
 
 ## Formulas
 
