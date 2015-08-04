@@ -4,9 +4,11 @@ Here's a nifty little formula you can use to spruce up your spreadsheets with fl
 
 Country flags come in a wide variety of aspect ratios, so there is no perfect cell size for displaying these flags. However, I have found that a row height of 21 pixels and a column width of 38 pixels is fairly optimal (you can precisely define the size by selecting the entire row/column, right-clicking, and choosing the "Resize" option).
 
-## Country flags
+## Formulas
 
-### Basic formula
+To place a flag in your document, you will need to have the country's name or country code somewhere in your document. Select one of the following formulas based on which system of country codes/naming you use
+
+### Two-letter country code
 
 If you use two-letter country codes (specifically [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) codes), you can use the following formula:
 
@@ -17,7 +19,7 @@ If you use two-letter country codes (specifically [ISO 3166-1 alpha-2](https://e
 Just replace "A1" with the address of the cell where you have the country code, and you're good to go.
 
 
-### Advanced formula
+### Name of country
 
 If you use country names or non-standard abbreviations or whatever else, this is the formula for you! It searches a list of country aliases and abbreviations and codes to try to find the right flag for you. Here's the formula:
 
@@ -28,12 +30,7 @@ If you use country names or non-standard abbreviations or whatever else, this is
 Replace both instances of "A1" with the address of the cell where you have the country name. If you're having trouble with this formula not working for some countries, make sure your country is in [this spreadsheet](https://docs.google.com/spreadsheets/d/1GoDDhtoDuKwDv9pB5hKFkcHzhI420z2lr4szovryXaU/edit#gid=0), and that you've spelled it exactly as it appears in there (it's not case-sensitive, but otherwise you have to have it exactly correct).
 
 
-### Special case formulas
-
-If you use other types of codes, the advanced formula should work just fine, but I've also made these alternate formulas that might load a little bit faster than the advanced one.
-
-
-#### Three-letter country codes
+### Three-letter country codes
 
 Here's the formula for three-letter country codes (specifically [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Current_codes) codes):
 
@@ -44,7 +41,7 @@ Here's the formula for three-letter country codes (specifically [ISO 3166-1 alph
 Replace both instances of "A1" with the address of the cell where your country code is stored.
 
 
-#### Numeric country codes
+### Numeric country codes
 
 Here's the formula for three-letter country codes (specifically [ISO 3166-1 numeric](https://en.wikipedia.org/wiki/ISO_3166-1_numeric#Current_codes) codes):
 
@@ -55,7 +52,7 @@ Here's the formula for three-letter country codes (specifically [ISO 3166-1 nume
 Replace both instances of "A1" with the address of the cell where your country code is stored.
 
 
-#### FIFA country codes
+### FIFA country codes
 
 Here's the formula for [FIFA country codes](https://en.wikipedia.org/wiki/List_of_FIFA_country_codes):
 
