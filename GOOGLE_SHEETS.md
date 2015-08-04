@@ -6,7 +6,7 @@ Country flags come in a wide variety of aspect ratios, so there is no perfect ce
 
 ## Formulas
 
-To place a flag in your document, you will need to have the country's name or country code somewhere in your document. Select one of the following formulas based on which system of country codes/naming you use
+To place a flag in your document, you will need to have the country's name or country code somewhere in your document. Select one of the following formulas based on which system of country codes/naming you use.
 
 ### Two-letter country code
 
