@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:odm="http://product.corel.com/CGS/11/cddns/" xml:space="preserve" width="701px" height="420px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd"
+     viewBox="0 0 702 420">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:#00812F}
+    .fil3 {fill:#000000}
+    .fil1 {fill:#DA251D}
+    .fil0 {fill:#FFFFFF}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer 1">
+  <rect class="fil0" x="0" y="0" width="701" height="421"/>
+  <rect class="fil1" x="0" y="163" width="701" height="93"/>
+  <rect class="fil2" x="0" y="0" width="701" height="164"/>
+  <rect class="fil3" x="304" y="0" width="93" height="421"/>
+  <path class="fil0" d="M351 171l9 26 28 0 -23 17 9 27 -23 -17 -23 17 9 -27 -23 -17 28 0 9 -26zm4 13m19 13m2 9m-7 21m-7 5m-22 0m-7 -5m-7 -21m2 -9m19 -13"/>
+ </g>
+</svg>

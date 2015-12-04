@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   width="780" height="520">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>Easton Flag</dc:title>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Bdamokos, DevinCook, AnonMoos</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wikipedia User: Bdamokos</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect width="780" height="520" style="fill:#002868"/>
+  <rect width="260" height="260" style="fill:#bf0a30"/>
+  <g style="fill:#ffffff">
+    <rect width="260" height="20" y="20"/>
+    <rect width="260" height="20" y="60"/>
+    <rect width="260" height="20" y="100"/>
+    <rect width="260" height="20" y="140"/>
+    <rect width="260" height="20" y="180"/>
+    <rect width="260" height="20" y="220"/>
+    <g transform="translate(520,260)">
+      <path id="Star8" d="M0,35.355339L25-25-35.355339,0L25,25L0-35.355339-25,25L35.355339,0-25-25Z"/>
+      <use x="194.762" xlink:href="#Star8"/>  
+      <use y="194.762" xlink:href="#Star8"/>
+      <use x="-194.762" xlink:href="#Star8"/>
+      <use y="-194.762" xlink:href="#Star8"/>
+      <use x="97.381" y="168.669" xlink:href="#Star8"/>
+      <use y="97.381" x="168.669" xlink:href="#Star8"/>
+      <use x="97.381" y="-168.669" xlink:href="#Star8"/>
+      <use y="97.381" x="-168.669" xlink:href="#Star8"/>
+      <use x="-97.381" y="168.669" xlink:href="#Star8"/>
+      <use y="-97.381" x="168.669" xlink:href="#Star8"/>
+      <use x="-97.381" y="-168.669" xlink:href="#Star8"/>
+      <use y="-97.381" x="-168.669" xlink:href="#Star8"/></g></g></svg>

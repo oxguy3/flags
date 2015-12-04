@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="indianapolis_flag_svg" width="500" height="300" viewBox="0 0 50 30">
+<desc>Flag of Indianapolis, Indiana, United States</desc>
+	<rect width="50" height="30" fill="#002868"/>
+	<path id="white_cross" d="M0,15 h50 M25,0 v30" style="fill:none; stroke:#fff; stroke-width:5"/>
+<g transform="translate(25,15)">
+	<circle r="7" fill="#ffffff"/>
+	<circle r="4" fill="#bf0a30"/>
+ <g id="star" transform="scale(3.25)">
+   <g id="cone">
+	<path id="triangle" fill="#fff" d="M0,0 v1 h0.5 z" transform="translate(0,-1) rotate(18)"/>
+	<use xlink:href="#triangle" transform="scale(-1,1)"/>
+   </g>
+	<use xlink:href="#cone" transform="rotate(72)"/>
+	<use xlink:href="#cone" transform="rotate(-72)"/>
+	<use xlink:href="#cone" transform="rotate(144)"/>
+	<use xlink:href="#cone" transform="rotate(-144)"/>
+ </g>
+</g>
+</svg>
