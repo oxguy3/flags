@@ -41,7 +41,7 @@ Replace both instances of "A1" with the address of the cell where your country c
 
 ### Numeric country codes
 
-Here's the formula for three-letter country codes (specifically [ISO 3166-1 numeric](https://en.wikipedia.org/wiki/ISO_3166-1_numeric#Current_codes) codes):
+Here's the formula for numeric country codes (specifically [ISO 3166-1 numeric](https://en.wikipedia.org/wiki/ISO_3166-1_numeric#Current_codes) codes):
 
 ```
 =IF(ISBLANK(A1), NA(), IMAGE(CONCATENATE("http://flags.ox3.in/svg/", LOWER(IFERROR(FILTER(  IMPORTRANGE("1GoDDhtoDuKwDv9pB5hKFkcHzhI420z2lr4szovryXaU","Countries!C2:C"), IMPORTRANGE("1GoDDhtoDuKwDv9pB5hKFkcHzhI420z2lr4szovryXaU","Countries!E2:E") = A1 ), "unknown")), ".svg")))
