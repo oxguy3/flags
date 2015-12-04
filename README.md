@@ -17,7 +17,7 @@ If SVGs don't suit your purpose, you can also access very low resolution PNGs vi
 I originally made this repository to allow me to easily embed flags in Google Sheets. You can read more about how to do that [here](https://github.com/oxguy3/flags/blob/gh-pages/GOOGLE_SHEETS.md).
 
 ## Is this freely usable?
-Yes! All these flags are public domain images from Wikimedia Commons, so you can do with them what you want. Everything else in this directory that is not an image file is licensed under [the MIT license](http://oxguy3.mit-license.org/).
+Yes! Most of these flags are public domain images from Wikimedia Commons, so you can do with them what you want. Flags that are not freely licensed are listed in the SPECIAL_LICENSES text file. Everything else in this directory that is not an image file is licensed under [the MIT license](http://oxguy3.mit-license.org/).
 
 ## I don't recognize Country X as an independent state; why does this repository include them?
 This repository is meant to be a useful developer resource, not an authority on which countries should and shouldn't be recognized. Any state that has an established unique ISO 3166 two-letter country code (more specifically, an ISO 3166-1 alpha-2 code) and a flag meets the criteria for inclusion in this repository, regardless of how widely recognized that state is.
