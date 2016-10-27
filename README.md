@@ -20,6 +20,3 @@ I originally made this repository to allow me to easily embed flags in Google Sh
 
 ## Is this freely usable?
 Yes! Most of these flags are public domain images from Wikimedia Commons, so you can do with them what you want. Flags that are not freely licensed are listed in the SPECIAL_LICENSES.csv (note that the special licenses are only for the SVG recreations of the flags; the flags themselves are still public domain). Everything else in this repository that is not an image file is licensed under [the MIT license](http://oxguy3.mit-license.org/).
-
-## I don't recognize Country X as an independent state; why does this repository include them?
-This repository is meant to be a useful developer resource, not an authority on which countries should and shouldn't be recognized. Any state that has a flag and an established unique ISO 3166-1 alpha-2 code meets the criteria for inclusion in this repository, regardless of how widely recognized that state is. If you don't want to recognize a country, just don't use that particular flag.
