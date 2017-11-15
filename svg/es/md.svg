@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 700">
+<path d="M0 0h1100v700H0" fill="#c60b1e"/>
+<path d="M168 262h166l-132 96 50-158 50 158" fill="#fff" id="a"/>
+<g id="b">
+<use x="200" xlink:href="#a"/>
+<use x="400" xlink:href="#a"/>
+<use x="600" xlink:href="#a"/>
+</g>
+<use x="-100" y="140" xlink:href="#b"/>
+</svg>

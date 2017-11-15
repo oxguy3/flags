@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2000" height="1200">
+	<rect width="2000" height="1200" fill="#f00"/>
+	<use xlink:href="#fleur" transform="translate(-790,15) rotate(315 1000,168)"/>
+	<use xlink:href="#fleur" x="-402.5"/>
+	<path id="fleur" d="M 1000.07,30.5 998.978,31.7893 C 980.677,51.4413 968.381,74.1633 973.682,100.815 976.605,115.518 983.68,129.166 988.683,143.33 991.587,151.595 992.469,160.158 992.283,168.833 L 990.925,168.833 C 990.525,154.668 987.003,141.487 980.44,128.991 972.295,111.927 956.314,103.041 942.826,103.015 927.54,102.986 915.45,114.33 921.667,137.984 925.978,154.39 940.681,164.033 958.08,165.689 956.825,161.364 949.912,146.07 955.491,143.079 964.407,143.417 975.471,158.781 978.135,166.097 978.453,166.97 978.444,167.933 978.672,168.833 L 1021.35,168.833 C 1021.61,167.933 1021.55,166.97 1021.86,166.097 1024.53,158.781 1035.62,143.417 1044.53,143.079 1050.11,146.07 1043.2,161.364 1041.95,165.689 1059.35,164.033 1074.01,154.39 1078.33,137.984 1090.03,93.4586 1036.93,92.5855 1019.55,128.991 1012.99,141.487 1009.47,154.668 1009.07,168.833 L 1007.65,168.833 C 1007.25,160.122 1008.85,151.684 1011.35,143.33 1016.1,129.077 1023.34,115.527 1026.34,100.815 1031.95,73.304 1018.83,52.5338 1001.14,31.8521 z" fill="#ffd700"/>
+	<use xlink:href="#fleur" transform="translate(402.5)"/>
+	<use xlink:href="#fleur" transform="translate(790,15) rotate(45 1000,168)"/>
+	<use xlink:href="#fleur" transform="translate(805,432) rotate(90 1000,168)"/>
+	<use xlink:href="#fleur" transform="translate(790,849) rotate(135 1000,168)"/>
+	<use xlink:href="#fleur" transform="translate(402.5,864) rotate(180 1000,168)"/>
+	<use xlink:href="#fleur" transform="translate(0,864) rotate(180 1000,168)"/>
+	<use xlink:href="#fleur" transform="translate(-402.5,864) rotate(180 1000,168)"/>
+	<use xlink:href="#fleur" transform="translate(-790,849) rotate(225 1000,168)"/>
+	<use xlink:href="#fleur" transform="translate(-805,432) rotate(270 1000,168)"/>
+	<rect x="195" y="168" width="1610" height="864" fill="#ffd700"/>
+	<g fill="#5881bb">
+		<clipPath id="clip">
+			<rect x="195" y="168" width="1610" height="864"/>
+		</clipPath>
+		<path id="w" d="M 376,114 q -43.2,54 0,108 t 0,108 t 0,108 t 0,108 t 0,108 t 0,108 t 0,108 t 0,108 t 0,108 h 108 q -43.2,-54 0,-108 t 0,-108 t 0,-108 t 0,-108 t 0,-108 t 0,-108 t 0,-108 t 0,-108 t 0,-108 z" clip-path="url(#clip)"/>
+		<rect x="665" y="168" width="100" height="864"/>
+		<use xlink:href="#w" x="570"/>
+		<rect x="1235" y="168" width="100" height="864"/>
+		<use xlink:href="#w" x="1140"/>
+	</g>
+</svg>
