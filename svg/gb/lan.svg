@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="276" height="264" viewBox="-138 -146 276 264">
+	<g transform="rotate(36)">
+		<path id="leaf" fill="#3b8536" d="m 0,0 c -15,18 -24,43 -24,72 0,29 9,54 24,72 15,-18 24,-43 24,-72 0,-29 -9,-54 -24,-72 z"/>
+		<use xlink:href="#leaf" transform="rotate(72)"/>
+		<use xlink:href="#leaf" transform="rotate(144)"/>
+		<use xlink:href="#leaf" transform="rotate(216)"/>
+		<use xlink:href="#leaf" transform="rotate(288)"/>
+		<g id="petals">
+			<g id="g1">
+				<path style="fill:#d60000;stroke:#000;stroke-width:0.2" d="M 0,-115 C-53,-115 -59.73,-86.15 -52,-75 L0,0 52,-75 C 59.73,-86.15 53,-115 0,-115 z"/>
+				<path fill="#000" d="m 0,-100 c 14,0 24,-4 32,-2 17,4 18,14 18,21 0,-8 -1,-18 -18,-22 -8,-2 -18,1 -32,1 -14,0 -24,-3 -32,-1 -17,4 -18,14 -18,22 0,-7 1,-17 18,-21 8,-2 18,2 32,2z"/>
+				<path fill="#630000" d="M 0,-99 C 14,-99 24,-103 32,-101 49,-97 50,-86 50,-79 50,-85 49,-94 32,-98 24,-100 14,-92 0,-92 -14,-92 -24,-100 -32,-98 -49,-94 -50,-85 -50,-79 -50,-86 -49,-97 -32,-101 -24,-103 -14,-99 0,-99z"/>
+				<path fill="#000" d="M 0,-84 -6,-68 C 0,-72 0,-72 6,-68 z"/>
+				<path fill="#3c4919" d="M -5,-63 C -5,-65 -3,-67 0,-67 3,-67 5,-65 5,-63 5,-60 2,-56 0,-53 -2,-56 -5,-60 -5,-63 z"/>
+			</g>
+			<use xlink:href="#g1" transform="rotate(72)"/>
+			<use xlink:href="#g1" transform="rotate(144)"/>
+			<use xlink:href="#g1" transform="rotate(216)"/>
+			<use xlink:href="#g1" transform="rotate(288)"/>
+		</g>
+		<use xlink:href="#petals" transform="rotate(36) scale(0.55)"/>
+		<circle r="20" style="fill:#fff;stroke:#6b2910;stroke-width:1.5;stroke-opacity:0.4"/>
+		<circle r="10" style="fill:#fff;stroke:#6b2910;stroke-width:1.5;stroke-opacity:0.4"/>
+		<g id="g2" style="fill:#fff;stroke:#6b2910;stroke-width:1.25;stroke-opacity:0.4">
+			<circle r="4" cy="25"/>
+			<circle r="4" cy="-25"/>
+		</g>
+		<use xlink:href="#g2" transform="rotate(20)"/>
+		<use xlink:href="#g2" transform="rotate(40)"/>
+		<use xlink:href="#g2" transform="rotate(60)"/>
+		<use xlink:href="#g2" transform="rotate(80)"/>
+		<use xlink:href="#g2" transform="rotate(100)"/>
+		<use xlink:href="#g2" transform="rotate(120)"/>
+		<use xlink:href="#g2" transform="rotate(140)"/>
+		<use xlink:href="#g2" transform="rotate(160)"/>
+	</g>
+</svg>

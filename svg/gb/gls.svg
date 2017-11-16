@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10" width="1000" height="500">
+	<rect width="20" height="10" fill="#69C071"/> <!-- Background -->
+	
+	<g fill="#F3EACD">
+		<rect width="4" height="10" x="8"/> <!-- Vertical fimbriation -->
+		<rect width="20" height="4" y="3"/> <!-- Horizontal fimbriation -->
+	</g>
+	
+	<g fill="#0072BB">
+		<rect width="2" height="10" x="9"/> <!-- Vertical bar -->
+		<rect width="20" height="2" y="4"/> <!-- Horizontal bar -->
+	</g>
+</svg>
