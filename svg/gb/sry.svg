@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="600">
+	<rect width="1000" height="600" fill="#0135ad"/>
+	<g id="row">
+		<rect id="square" width="100" height="100" fill="#ffce00"/>
+		<use xlink:href="#square" x="200"/>
+		<use xlink:href="#square" x="400"/>
+		<use xlink:href="#square" x="600"/>
+		<use xlink:href="#square" x="800"/>
+	</g>
+	<use xlink:href="#row" x="100" y="100"/>
+	<use xlink:href="#row" y="200"/>
+	<use xlink:href="#row" x="100" y="300"/>
+	<use xlink:href="#row" y="400"/>
+	<use xlink:href="#row" x="100" y="500"/>
+</svg>
