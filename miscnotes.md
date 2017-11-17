@@ -8,15 +8,41 @@ Then there will be the build script, for rearranging/processing the image files 
 ### Build script
 Here's what the `./build.sh --help` might look like:
 ```
-./build.sh [options] <code_system> [destination]
+./build.sh [flags] [destination]
 
-parameters:
-  code_system: "all" or a comma-delimited list of code systems
-  destination: path to output files into (default: _build/ or something)
+ARGUMENTS
+  - destination: path to where the files will be dumped (all code system paths will be relative to this path) (default: build/)
 
-options:
-  --format=<svg|png|svg,png>: file formats to create (default: svg)
-  --optimize=<svg|png|svg,png|all>: file formats to optimize/compress after creation (default: all)
+CODE SYSTEM FLAGS
+  Specifies what code system(s) should be used to name the output files. If you do not specify at least one of these, --iso-1-alpha-2 will automatically be chosen.
+
+  --iso-1: enable all three ISO 3166-1 code systems
+  --iso-1-alpha-2: enable ISO 3166-1 alpha-2 country codes
+  --iso-1-alpha-3: enable ISO 3166-1 alpha-3 country codes
+  --iso-1-numeric: enable ISO 3166-1 numeric country codes
+  --iso-2: enable ISO 3166-2 subdivision codes
+  --fifa: enable FIFA country codes
+  --ioc: enable IOC (Olympics) country codes
+  --unlocode: enable UN/LOCODE city codes
+  --fips-legacy-ge: enable FIPS 10-4 (aka GEC) country codes
+  --fips-legacy-as: enable FIPS 10-4 (aka GEC) subdivision codes
+  --fips-us-state: enable U.S. Census FIPS state codes
+  --fips-us-county: enable U.S. Census FIPS county codes
+  --fips-us-place: enable U.S. Census FIPS place codes (cities/townships/etc)
+
+OUTPUT FOLDER FLAGS
+  --folder-divisions=<none|some|all>: specifies how the code system folders should be structured (default: 'none' if 1 code system enabled, 'some' if 2+ enabled)
+      'none' = no folders, completely flat output (may cause collisions if multiple code systems are enabled)
+      'some' = separate folders, but iso and fips-us share folders
+      'all' = separate folders for every code system
+  --flatten-subdivisions: if included, subdivisions will not use multi-level folder system
+
+FILE FORMAT FLAGS
+  --make-pngs=<comma-delimited integer(s)>: will generate PNGs at each of the specified pixel widths (default: disabled)
+  --no-svg: if set, SVG files will be excluded/deleted from the final output
+  --optimize-svg: if set, SVG files will be optimized with svgo
+
+MISCELLANEOUS FLAGS
   --help: Show this text
 ```
 
