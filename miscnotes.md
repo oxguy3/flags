@@ -13,37 +13,43 @@ Here's what the `./build.sh --help` might look like:
 ARGUMENTS
   - destination: path to where the files will be dumped (all code system paths will be relative to this path) (default: build/)
 
-CODE SYSTEM FLAGS
-  Specifies what code system(s) should be used to name the output files. If you do not specify at least one of these, --iso-1-alpha-2 will automatically be chosen.
+BASIC FLAGS
+  --help: Show this text
+  --defaults: Shortcut for --iso-1-alpha-2 --optimize-svg --split-subdivisions
 
-  --iso-1: enable all three ISO 3166-1 code systems
-  --iso-1-alpha-2: enable ISO 3166-1 alpha-2 country codes
-  --iso-1-alpha-3: enable ISO 3166-1 alpha-3 country codes
-  --iso-1-numeric: enable ISO 3166-1 numeric country codes
-  --iso-2: enable ISO 3166-2 subdivision codes
-  --fifa: enable FIFA country codes
-  --ioc: enable IOC (Olympics) country codes
-  --unlocode: enable UN/LOCODE city codes
-  --fips-legacy-ge: enable FIPS 10-4 (aka GEC) country codes
-  --fips-legacy-as: enable FIPS 10-4 (aka GEC) subdivision codes
-  --fips-us-state: enable U.S. Census FIPS state codes
-  --fips-us-county: enable U.S. Census FIPS county codes
-  --fips-us-place: enable U.S. Census FIPS place codes (cities/townships/etc)
+CODE SYSTEM FLAGS
+  Specifies what code system(s) should be used to name the output files. You must specify at least one of these.
+
+  --all-codes: shortcut for all code systems
+  --iso: all ISO code systems
+  --iso-1: shortcut for all three ISO 3166-1 code systems
+  --iso-1-alpha-2: ISO 3166-1 alpha-2 country codes
+  --iso-1-alpha-3: ISO 3166-1 alpha-3 country codes
+  --iso-1-numeric: ISO 3166-1 numeric country codes
+  --iso-2: ISO 3166-2 subdivision codes
+  --fifa: FIFA country codes
+  --ioc: IOC (Olympics) country codes
+  --unlocode: UN/LOCODE city codes
+  --fips-legacy: all FIPS 10-4 (aka GEC) code systems
+  --fips-legacy-ge: FIPS 10-4 (aka GEC) country codes
+  --fips-legacy-as: FIPS 10-4 (aka GEC) subdivision codes
+  --fips-us: all U.S. Census FIPS codes
+  --fips-us-state: U.S. Census FIPS state codes
+  --fips-us-county: U.S. Census FIPS county codes
+  --fips-us-place: U.S. Census FIPS place codes (cities/townships/etc)
 
 OUTPUT FOLDER FLAGS
-  --folder-divisions=<none|some|all>: specifies how the code system folders should be structured (default: 'none' if 1 code system enabled, 'some' if 2+ enabled)
+  --folder-divisions=<none|some|all>: specifies how the code system folders should be structured (default: best guess)
       'none' = no folders, completely flat output (may cause collisions if multiple code systems are enabled)
       'some' = separate folders, but iso and fips-us share folders
       'all' = separate folders for every code system
-  --flatten-subdivisions: if included, subdivisions will not use multi-level folder system
+  --split-subdivisions: if set, subdivision codes will divided into parts to make a hierarchical folder structure instead of a flat one
+  --use-symlinks: create symlinks instead of creating duplicate output files
 
 FILE FORMAT FLAGS
-  --make-pngs=<comma-delimited integer(s)>: will generate PNGs at each of the specified pixel widths (default: disabled)
+  --make-pngs=<comma-delimited integer(s)>: will generate PNGs at each of the specified pixel widths
   --no-svg: if set, SVG files will be excluded/deleted from the final output
   --optimize-svg: if set, SVG files will be optimized with svgo
-
-MISCELLANEOUS FLAGS
-  --help: Show this text
 ```
 
 ## URL structure
